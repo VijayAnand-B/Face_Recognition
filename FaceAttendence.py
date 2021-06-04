@@ -10,21 +10,6 @@ import os
 from datetime import datetime
 import requests
 
-# from oauth2client.service_account import ServiceAccountCredentials
-
-# # Connecting Gsheet & adding credentials to the account
-# scope = ['https://spreadsheets.google.com/feeds',
-#          'https://www.googleapis.com/auth/drive']
-# credentials = ServiceAccountCredentials.from_json_keyfile_name(
-#     'jsonFileFromGoogle.json', scope)
-# client = gspread.authorize(credentials)
-# spreadsheet_key = '1zUWueeolkGZoPRB3VoAjCqLn--jB5QGs7vlDaWOq1k0'
-# wks_name = 'Face'
-
-# Gsheet = client.open('Attendance Project')
-# sheet = Gsheet.get_worksheet(2)
-
-
 # Update Attedance at
 def markAttendance(name):
     # col = sheet.col_values(1)  # data in Column 1
